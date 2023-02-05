@@ -248,16 +248,14 @@ header .container .main-nav {
 }
 @media (max-width: 767px) {
   header .container .main-nav {
-    gap: 0 !important;
-  }
-}
-@media (max-width: 767px) {
-  header .container .main-nav {
     flex-direction: column;
   }
   header .container > ul > li > a {
     padding: 10px !important;
     font-size: 15px !important;
+  }
+  header .container .main-nav {
+    gap: 0 !important;
   }
 }
 header .container .main-nav ul  {
