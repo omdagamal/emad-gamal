@@ -248,6 +248,11 @@ header .container .main-nav {
 }
 @media (max-width: 767px) {
   header .container .main-nav {
+    gap: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  header .container .main-nav {
     flex-direction: column;
   }
   header .container > ul > li > a {
@@ -267,7 +272,6 @@ header .container .main-nav ul  {
   }
 }
 header .container .main-nav ul li {
-  width: 200px;
   padding: 20px 0;
   border-bottom: 1px solid #ddd;
   position: relative;
